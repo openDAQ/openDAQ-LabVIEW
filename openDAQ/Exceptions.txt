@@ -1,0 +1,15 @@
+;---------------------------------------------------------------------------
+;
+; openDAQ LabVIEW library
+; Below is a list of exceptions that may occur in this driver library.
+;
+; Syntax: [LabVIEW error code]=[description]
+;
+;---------------------------------------------------------------------------
+
+6001=The root path to the 'modules' directory could not be found.
+6050=Building instance failed.
+6100=Device connection failed. 
+6101=Device disconnection failed.
+6200=Incorrect time string for origin.
+6300=Ivalid value for sample tick.

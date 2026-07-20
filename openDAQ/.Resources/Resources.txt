@@ -1,0 +1,8 @@
+;--- Download-Page:
+
+https://docs-dev.opendaq.com/
+opendaq-3.21.0-win64_63342f0.exe
+
+;--- Documentation:
+
+https://docs.opendaq.com/manual/opendaq/3.20/getting_started/quick_start_application.html
