@@ -86,7 +86,7 @@ Arguments that are openDAQ objects in their own right (devices, signals, functio
 - **Discover devices on the local network** — `Discover Devices.vi`
 
     Shows how to create an openDAQ instance and scan the local network for openDAQ-compatible devices.
-    > ***Warning:*** This driver bundles openDAQ version 3.40.1 and its associated modules. Connecting to devices running a newer version of openDAQ is not supported and may lead to undefined behaviour.
+    > ***Warning:*** This driver bundles openDAQ version 3.40.3 and its associated modules. Connecting to devices running a newer version of openDAQ is not supported and may lead to undefined behaviour.
 
 - **Filter and connect to found devices** — `Filter and Connect Device.vi`
 
