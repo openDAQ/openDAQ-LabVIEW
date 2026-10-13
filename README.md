@@ -34,11 +34,13 @@ Setting up the openDAQ LabVIEW (LV) driver takes only a couple of steps:
 
 1. Download or clone this GitHub repository onto the system that will be running LabVIEW.
 
-2. Copy the complete `openDAQ` folder (with all of its subfolders) into the `instr.lib` directory of your LabVIEW development environment. A standard LabVIEW installation has its `instr.lib` folder under:
+2. Copy the complete `openDAQ` folder (with all of its subfolders) into the `instr.lib` directory of your LabVIEW development environment, so that the driver ends up in:
 
     ```
-    C:\Program Files\National Instruments\LabVIEW 20XX\instr.lib
+    <LabVIEW>/instr.lib/openDAQ
     ```
+
+    Here `<LabVIEW>` is the folder that LabVIEW is installed in.
 
 3. Restart LabVIEW.
 

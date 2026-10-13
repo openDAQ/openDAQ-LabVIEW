@@ -9,4 +9,6 @@
 ---
 ## Misc
 - This release has been tested with the latest version of openDAQ binaries (3.40.3), which have not been updated since the previous release (0.2.1).
+- The driver files are now saved in LabVIEW 2020 format (previously LabVIEW 2022). The supported LabVIEW versions remain 2022–2026.
+- Added `Installation_instructions.md` with steps for a new installation and for updating an existing installation to a new driver version. The README now links to it.
 
