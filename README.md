@@ -28,6 +28,8 @@ For an introduction to usage, the driver contains examples that show how to crea
 
 ## How to set up the openDAQ LabVIEW driver
 
+> For full installation instructions, including how to update an existing installation to a new driver version, see [Installation_instructions.md](Installation_instructions.md).
+
 Setting up the openDAQ LabVIEW (LV) driver takes only a couple of steps:
 
 1. Download or clone this GitHub repository onto the system that will be running LabVIEW.
