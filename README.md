@@ -28,15 +28,19 @@ For an introduction to usage, the driver contains examples that show how to crea
 
 ## How to set up the openDAQ LabVIEW driver
 
+> For full installation instructions, including how to update an existing installation to a new driver version, see [Installation_instructions.md](Installation_instructions.md).
+
 Setting up the openDAQ LabVIEW (LV) driver takes only a couple of steps:
 
 1. Download or clone this GitHub repository onto the system that will be running LabVIEW.
 
-2. Copy the complete `openDAQ` folder (with all of its subfolders) into the `instr.lib` directory of your LabVIEW development environment. A standard LabVIEW installation has its `instr.lib` folder under:
+2. Copy the complete `openDAQ` folder (with all of its subfolders) into the `instr.lib` directory of your LabVIEW development environment, so that the driver ends up in:
 
     ```
-    C:\Program Files\National Instruments\LabVIEW 20XX\instr.lib
+    <LabVIEW>/instr.lib/openDAQ
     ```
+
+    Here `<LabVIEW>` is the folder that LabVIEW is installed in.
 
 3. Restart LabVIEW.
 
@@ -86,7 +90,7 @@ Arguments that are openDAQ objects in their own right (devices, signals, functio
 - **Discover devices on the local network** — `Discover Devices.vi`
 
     Shows how to create an openDAQ instance and scan the local network for openDAQ-compatible devices.
-    > ***Warning:*** This driver bundles openDAQ version 3.40.1 and its associated modules. Connecting to devices running a newer version of openDAQ is not supported and may lead to undefined behaviour.
+    > ***Warning:*** This driver bundles openDAQ version 3.40.3 and its associated modules. Connecting to devices running a newer version of openDAQ is not supported and may lead to undefined behaviour.
 
 - **Filter and connect to found devices** — `Filter and Connect Device.vi`
 
